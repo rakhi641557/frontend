@@ -1,0 +1,31 @@
+/*h2{
+    color:blueviolet;
+}*/
+
+/*id selector(id unique) - # */
+/*color picker colour select cheyyam*/
+/*#heading{
+    color:rgb(43, 86, 226);
+    text-align: center;
+}
+*/
+/*class selector(class atra venelum assign cheyyam better way is class selector than id ) - . */
+/*two div have same activity we should give the class name as to be same*/ 
+.heading{
+    color:blue;
+    text-align: center;
+}
+.head{
+    border: 1px solid black;/*border width,border style border color*/
+}
+/*different units of width-px,%,vh(viewport height)vw(viewport width),em,rem(depents on fontsize),fr(fraction)*/
+/*px-absolute value*/
+/*and the remains are relative*/
+
+.child{
+    width: 50%;
+}
+.parent{
+    background-color: blue;
+    width: 70%;
+}

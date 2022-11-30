@@ -1,0 +1,29 @@
+.parent{
+    width: 80%;
+    background-color: aqua;
+    border: 1px solid purple;
+}
+
+.child{
+    width: 50%;
+    height: 200px;
+}
+/*.section1{
+    background-color: cadetblue;
+}
+.section2{
+    background-color: beige;
+}
+.section3{
+    background-color: chocolate;
+}*/
+/*section classinte akathu kodukathem cheyyam*/
+.child:nth-child(1){
+    background-color: cadetblue;
+}
+.child:nth-child(2){
+    background-color: beige;  
+}
+.child:nth-child(3){
+    background-color: chocolate;
+}

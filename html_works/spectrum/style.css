@@ -1,0 +1,28 @@
+.row{
+    width: 70%;
+    background-color: darkgray;
+    border: 1px solid black;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.col{
+    width: 22%;
+    height: 200px;
+    border: 1px solid black;
+    margin-left: 20px;
+    float: left;
+}
+.col-1{
+    background-color: cornflowerblue;
+}
+.col-2{
+    background-color: aquamarine;
+}
+.col-3{
+    background-color: yellow;
+}
+.col-4{
+    background-color: cadetblue;
+}

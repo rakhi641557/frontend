@@ -1,0 +1,30 @@
+.parent{
+    width: 80%;
+    height: 400px;
+    background-color: darkgray;
+    border: 1px solid black;
+    display: flex;/*float: left; cheyyunna same*/
+   /*flex-direction: row; (row or column aayi display cheyyan)*/
+    /*justify-content: flex-end;endleku display cheyyan*/
+    /*justify-content: space-around;(simple way)left and right space kittum*/
+    justify-content: space-evenly;/*equaly space kittum*/
+    align-items: center;
+}   
+.col{
+    width: 30%;
+    height: 200px;
+    border: 1px solid black;
+}
+.col:nth-child(1){
+    background-color: aqua;
+
+}
+.col:nth-child(2){
+    background-color: blue;
+}
+.col:nth-child(3){
+    background-color: brown;
+}
+img{
+    width: 100%;
+}
